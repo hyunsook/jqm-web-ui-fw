@@ -8,7 +8,7 @@ define( [
 	"jqm/jquery.mobile.core",
 	"../../behaviors/setValue",
 	"depend!jq-color/jquery.color[jquery]",
-	"./grayscale" ], function( $ ) {
+	"./grayscale" ], function( jQuery ) {
 //>>excludeEnd("jqmBuildExclude");
 ( function( $, undefined ) {
 
@@ -73,7 +73,7 @@ $.mobile.behaviors.colorWidget = $.extend( {}, $.mobile.behaviors.setValue, {
 	},
 
 	_setColor: function( value ) {
-		var curClr = null, newClr = null, diff;
+		var curClr = null, newClr = null;
 
 		if ( this.options.color ) {
 			curClr = $.Color( this.options.color );
