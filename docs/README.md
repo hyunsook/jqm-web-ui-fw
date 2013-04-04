@@ -1,5 +1,5 @@
-api.jquerymobile.com
-====================
+jQuery Mobile Web-UI-FW API Docs.
+========================================
 
 ## Building
 
