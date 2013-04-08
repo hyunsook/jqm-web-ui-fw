@@ -2,8 +2,6 @@
 module.exports = function( grunt ) {
 	"use strict";
 
-	//[[OLDCODE:hyunsook.park by updated]] - Use grunt.file.expand() instead of grunt.file.expandFiles()
-	//var entryFiles = grunt.file.expandFiles( "entries/*.xml" );
 	var entryFiles = grunt.file.expand( { filter: "isFile" }, "entries/*.xml" );
 
 	// Project configuration
@@ -29,16 +27,12 @@ module.exports = function( grunt ) {
 			all: [].concat( entryFiles, "categories.xml" )
 		},
 		"build-pages": {
-			//[[OLDCODE:hyunsook.park by updated]] - Use grunt.file.expand() instead of grunt.file.expandFiles()
-			//all: grunt.file.expandFiles( "pages/**" )
 			all: grunt.file.expand( { filter: "isFile" }, "pages/**" )
 		},
 		"build-xml-entries": {
 			all: entryFiles
 		},
 		"build-resources": {
-			//[[OLDCODE:hyunsook.park by updated]] - Use grunt.file.expand() instead of grunt.file.expandFiles()
-			//all: grunt.file.expandFiles( "resources/**" )
 			all: grunt.file.expand( { filter: "isFile" }, "resources/**" )
 		},
 		wordpress: grunt.util._.extend({
