@@ -39,9 +39,7 @@ To build only the documentation files, follow with the following step:
 	cp config-sample.json config.json
 	```
 
-4. Edit config.json to use the username and password for your local WordPress network (if you already finished setting for local WordPress).
-
-5. Build the files.
+4. Build the files.
 	```
 	grunt
 	```
