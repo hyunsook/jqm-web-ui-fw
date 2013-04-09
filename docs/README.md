@@ -29,7 +29,7 @@ To build only the documentation files, follow with the following step:
 	npm install -g grunt-cli
 	```
 
-2. Install local build dependencies move the path on your docs directory of web-ui-fw repository.
+2. Install local build dependencies.
 	```
 	npm install
 	```
