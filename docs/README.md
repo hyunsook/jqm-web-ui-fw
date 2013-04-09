@@ -13,13 +13,13 @@ The [`xmllint`](http://manpages.ubuntu.com/manpages/lucid/man1/xmllint.1.html) i
 If you are on Windows, you can get libxml2 and libxslt from [GnuWin32](http://sourceforge.net/projects/gnuwin32/files/).
 
 
-### Build
-
-#### Build and Deploy
+### Build and Deploy
 
 To build and deploy your changes for previewing in a [`jquery-wp-content`](https://github.com/jquery/jquery-wp-content) instance, follow the **[workflow instructions](http://contribute.jquery.org/web-sites/#workflow)** from our documentation on [contributing to jQuery Foundation web sites](http://contribute.jquery.org/web-sites/).
 
-#### Build
+
+### Build
+
 The place is where the docs directory of web-ui-fw repo you chose.
 
 To build only the documentation files, follow with the following step:
@@ -28,14 +28,17 @@ To build only the documentation files, follow with the following step:
 	```
 	npm install -g grunt-cli
 	```
+
 2. Install local build dependencies move the path on your docs directory of web-ui-fw repository.
 	```
 	npm install
 	```
+
 3. Copy the config-sample.json file to config.json in the same directory.
 	```
 	cp config-sample.json config.json
 	```
+
 4. Edit config.json to use the username and password for your local WordPress network (if you already finished setting for local WordPress).
 
 5. Build the files.
