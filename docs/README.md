@@ -13,11 +13,6 @@ The [`xmllint`](http://manpages.ubuntu.com/manpages/lucid/man1/xmllint.1.html) i
 If you are on Windows, you can get libxml2 and libxslt from [GnuWin32](http://sourceforge.net/projects/gnuwin32/files/).
 
 
-### Build and Deploy
-
-To build and deploy your changes for previewing in a [`jquery-wp-content`](https://github.com/jquery/jquery-wp-content) instance, follow the **[workflow instructions](http://contribute.jquery.org/web-sites/#workflow)** from our documentation on [contributing to jQuery Foundation web sites](http://contribute.jquery.org/web-sites/).
-
-
 ### Build
 
 The place is where the docs directory of web-ui-fw repo you chose.
@@ -43,3 +38,8 @@ To build only the documentation files, follow with the following step:
 	```
 	grunt
 	```
+
+
+### Build and Deploy
+
+To build and deploy your changes for previewing in a [`jquery-wp-content`](https://github.com/jquery/jquery-wp-content) instance, follow the **[workflow instructions](http://contribute.jquery.org/web-sites/#workflow)** from our documentation on [contributing to jQuery Foundation web sites](http://contribute.jquery.org/web-sites/).
