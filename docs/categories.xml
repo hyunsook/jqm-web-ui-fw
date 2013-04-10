@@ -2,8 +2,7 @@
 	<category name="Uncategorized" slug="uncategorized"/>
 	<category name="Widgets" slug="widgets">
 		<desc><![CDATA[
-			<p>Widgets are feature-rich, stateful plugins that have a full life-cycle, along with methods and events. Check out the <a href="/jQuery.widget/">widget factory</a> documentation for more details.</p>
-]]></desc>
+			<p>Widgets are feature-rich, stateful plugins that have a full life-cycle, along with methods and events. Check out the <a href="/jQuery.widget/">widget factory</a> documentation for more details.</p>]]></desc>
 	</category>
 	<category name="Events" slug="events">
 		<desc><![CDATA[
@@ -20,9 +19,9 @@
 		<desc><![CDATA[
 			<p>The jQuery Mobile framework uses HTML5 data- attributes to allow for markup-based initialization and configuration of widgets.</p>]]></desc>
 	</category>
-	<category name="Widgets-webuifw" slug="widgets-webuifw">
+	<category name="Widgets (Web-UI-FW)" slug="widgets-webuifw">
 		<desc><![CDATA[
-			<p>Test catecory</p>]]></desc>
+			<p>Widgets of Web-UI-FW are feature-rich, stateful plugins that have a full life-cycle, along with methods and events. Check out the <a href="/jQuery.widget/">widget factory</a> documentation for more details.</p>]]></desc>
 	</category>
 	<category name="All" slug="all"/>
 </categories>
