@@ -11,20 +11,20 @@ define( [
 
 ( function( $, window, document, undefined ) {
 	$.widget( "mobile.tokentextarea", $.mobile.widget, {
-		_focusStatus: null,
-		_items: null,
-		_viewWidth: 0,
-		_reservedWidth: 0,
-		_currentWidth: 0,
-		_anchorWidth: 0,
-		_labelWidth: 0,
-		_marginWidth: 0,
-		options: {
+		_focusStatus : null,
+		_items : null,
+		_viewWidth : 0,
+		_reservedWidth : 0,
+		_currentWidth : 0,
+		_anchorWidth : 0,
+		_labelWidth : 0,
+		_marginWidth : 0,
+		options : {
 			initSelector: ":jqmData(role='tokentextarea')",
-			label: "To : ",
-			link: null,
-			theme: null,
-			description: "+ {0}"
+			label : "To : ",
+			link : null,
+			theme : null,
+			description : "+ {0}"
 		},
 
 		_create: function() {
@@ -103,10 +103,10 @@ define( [
 			});
 
 			inputbox.bind( "keyup", function( event ) {
-				// 8: backspace
-				// 13: Enter
-				// 186: semi-colon
-				// 188: comma
+				// 8  : backspace
+				// 13 : Enter
+				// 186 : semi-colon
+				// 188 : comma
 				var keyValue = event.keyCode,
 					keyCode = jQuery.mobile.keyCode,
 					valueString = $( inputbox ).val(),
@@ -180,8 +180,8 @@ define( [
 		},
 
 		// create a textbutton and append this button to parent layer.
-		// @param arg1: string
-		// @param arg2: index
+		// @param arg1 : string
+		// @param arg2 : index
 		_addTextBlock: function( messages, blockIndex ) {
 			if ( arguments.length === 0 ) {
 				return;
